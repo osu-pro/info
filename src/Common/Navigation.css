@@ -1,0 +1,16 @@
+.navigation-outer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navigation-button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navigation-button-active {
+    text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+.main-content {
+  width: 800px;
+  max-width: 800px;
+}
+
+.main-content-outer {
+  display: flex;
+  justify-content: center;
+}

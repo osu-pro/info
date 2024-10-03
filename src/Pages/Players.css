@@ -1,0 +1,27 @@
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.note-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.comment-outer {
+    background-color: #eeeeee;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.bad-habit {
+    font-size: 1.5rem;
+}
+
+.bad-habit-reason {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #555555;
+}
