@@ -1,6 +1,3 @@
-import exp from "constants";
-import {phrases} from "./phrases";
-
 export type Nickname = {
     id: string
     nickname: string
