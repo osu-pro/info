@@ -14,9 +14,16 @@ export function DiscordUser({id} : {id : string}) {
 }
 
 function PhraseRow({item} : {item: Phrase}) {
+    if (window.innerWidth > 800) {
+        return <tr>
+            <th><DiscordUser id={item.id}/></th>
+            <th> {item.data} </th>
+        </tr>
+    }
+
     return <tr>
-        <th> <DiscordUser id={item.id}/> </th>
-        <th> {item.data} </th>
+        <DiscordUser id={item.id}/>
+        {item.data}
     </tr>
 }
 

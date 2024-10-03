@@ -43,4 +43,5 @@ export const users = [
     {"id": "307209526174810112", "username": "filodelfi", "global_name": "Filodelfi", "avatar": "7a96cd76cf8a7e2e24eda67031752df1", "note": "Супер позорище, жимер"} ,
     {"id": "477105442531573760", "username": "function7777", "global_name": "Function", "avatar": "89ba4cf0cf70bb509bb2a2e85f096f5c", "note": "Никнейм - Как играть фул скрин стримы, ник -Function-, 3200pp"} ,
     {"id": "533764926481891360", "username": "iit04e4kaii", "global_name": "gegc fynjy", "avatar": "cb27d26eb800de8aa2e8bd2d7fdc74b5", "note": "синдром невика, 5к пп, говорит 5к мало"} ,
+    {"id": "540532862571773952", "username": "f1erdza", "global_name": "subsushsbskskxism", "avatar": "c7ada15a3298827fba35974287f2d9fb", "note": "Тупой ник, забаненый"} ,
 ]

@@ -3,7 +3,7 @@ import './App.css';
 import {
   BrowserRouter,
   Routes,
-  Route,
+  Route
 } from "react-router-dom";
 import {Home} from "./Pages/Home";
 import {Epidemy} from "./Pages/Epidemy";
@@ -20,7 +20,7 @@ function App() {
         <Navigation/>
         <Line/>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route index element={<Home/>}/>
           <Route path="/players" element={<Players/>}/>
           <Route path="/epidemy" element={<Epidemy/>}/>
           <Route path="/phrases" element={<Phrases/>}/>
