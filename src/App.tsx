@@ -20,10 +20,11 @@ function App() {
         <Navigation/>
         <Line/>
         <Routes>
-          <Route index element={<Home/>}/>
-          <Route path="/players" element={<Players/>}/>
-          <Route path="/epidemy" element={<Epidemy/>}/>
-          <Route path="/phrases" element={<Phrases/>}/>
+          <Route index path="/info/" element={<Home/>}/>
+          <Route path="/info/players" element={<Players/>}/>
+          <Route path="/info/epidemy" element={<Epidemy/>}/>
+          <Route path="/info/phrases" element={<Phrases/>}/>
+          <Route path="*" element={<Home/>}/>
         </Routes>
       </div>
     </div>
