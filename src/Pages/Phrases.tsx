@@ -1,20 +1,36 @@
-import {useState} from "react";
+import React, {useLayoutEffect, useState} from "react";
 import {users} from "../Data/users"
 import {Phrase, phrases} from "../Data/phrases"
 import './Phrases.css'
 import {Nickname, nicknames} from "../Data/nicknames";
+import {Line} from "../Common/Miscellaneous";
 
 export function DiscordUser({id} : {id : string}) {
     const user = users.find((user : any) => user.id === id);
-    if (!user) return <span style={{color: "#cccccc"}}> @{id} </span>
+    if (!user) return <span style={{color: "#cccccc"}}> <div className="user">@{id}</div> </span>
     return <div className="user">
         <img className="user-pfp" src={`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.webp`} alt=""/>
         <span> {user["global_name"]} </span>
     </div>
 }
 
+function useWindowSize() {
+    const [size, setSize] = useState([0, 0]);
+    useLayoutEffect(() => {
+        function updateSize() {
+            setSize([window.innerWidth, window.innerHeight]);
+        }
+        window.addEventListener('resize', updateSize);
+        updateSize();
+        return () => window.removeEventListener('resize', updateSize);
+    }, []);
+    return size;
+}
+
 function PhraseRow({item} : {item: Phrase}) {
-    if (window.innerWidth > 800) {
+    const size = useWindowSize();
+
+    if (size[0] > 800) {
         return <tr>
             <th><DiscordUser id={item.id}/></th>
             <th> {item.data} </th>
@@ -22,6 +38,7 @@ function PhraseRow({item} : {item: Phrase}) {
     }
 
     return <tr>
+        <Line/>
         <DiscordUser id={item.id}/>
         {item.data}
     </tr>
@@ -61,9 +78,19 @@ function DialogueGenerator() {
 
 
 function NicknameRow({item} : {item: Nickname}) {
+    const size = useWindowSize();
+
+    if (size[0] > 800) {
+        return <tr>
+            <th><DiscordUser id={item.id}/></th>
+            <th> {item.nickname} </th>
+        </tr>
+    }
+
     return <tr>
-        <th> <DiscordUser id={item.id}/> </th>
-        <th> {item.nickname} </th>
+        <Line/>
+        <DiscordUser id={item.id}/>
+        {item.nickname}
     </tr>
 }
 
