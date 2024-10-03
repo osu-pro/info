@@ -12,6 +12,14 @@
     color: #000000;
 }
 
+@media screen and (max-width: 800px) {
+    .navigation-button {
+        font-size: 1rem;
+    }
+}
+
+
+
 .navigation-button-active {
     text-decoration: underline;
 }
