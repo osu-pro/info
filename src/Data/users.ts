@@ -45,4 +45,6 @@ export const users = [
     {"id": "533764926481891360", "username": "iit04e4kaii", "global_name": "gegc fynjy", "avatar": "cb27d26eb800de8aa2e8bd2d7fdc74b5", "note": "синдром невика, 5к пп, говорит 5к мало"} ,
     {"id": "540532862571773952", "username": "f1erdza", "global_name": "subsushsbskskxism", "avatar": "c7ada15a3298827fba35974287f2d9fb", "note": "Тупой ник, забаненый"} ,
     {"id": "1244817985168740377", "username": "impressive_osu", "global_name": "Impressive", "avatar": "16e8e2a5cb542e00e52ffa641c5c43e5", "note": "Конченый идиот, основной ник impressive_osu"} ,
+    {"id": "486796385455177748", "username": "_apostrof", "global_name": "apostrof?", "avatar": "1d5bb21dfe30eb2dd7d937ae73b27f5e", "note": "Синдром невика, долбаебина, ник дебила хассанище trying diffrent area's"} ,
+
 ]
