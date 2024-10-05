@@ -16,8 +16,11 @@
     .navigation-button {
         font-size: 1rem;
     }
-}
 
+    .navigation-outer {
+        flex-direction: column;
+    }
+}
 
 
 .navigation-button-active {

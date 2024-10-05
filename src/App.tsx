@@ -11,6 +11,7 @@ import {Players} from "./Pages/Players";
 import {Navigation} from "./Common/Navigation";
 import {Line} from "./Common/Miscellaneous";
 import {Phrases} from "./Pages/Phrases";
+import {Skins} from "./Pages/Skins";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/info/players" element={<Players/>}/>
           <Route path="/info/epidemy" element={<Epidemy/>}/>
           <Route path="/info/phrases" element={<Phrases/>}/>
+          <Route path="/info/skins" element={<Skins/>}/>
           <Route path="*" element={<Home/>}/>
         </Routes>
       </div>
