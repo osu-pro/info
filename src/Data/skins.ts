@@ -14,5 +14,13 @@ export const skins : Skin[] = [
         name: "SKIN X",
         description: "Кажется, что этот скин какой-то мемный, но на самом деле все рассчитано математически: желтые кружки наиболее заметные, а лица на кружках заставляют человека инстинктивно их распознавать. Интерфейс пронизан вайбом OCaml для настоящих нердов, а так же в скине отличные хитсаунды. Ахуенный скин, который я взял у игрока TheCatPetra. Insta-fade, помогает для быстрых карт и ДТ, в общем, попробуйте сами и кайфаните!",
         downloadLink: "https://drive.google.com/file/d/1Xrd24AH_GxW1g0pBQqS1L4fB8127ebT0/view?usp=sharing"
+    },
+    {
+        images: [
+            "/%PUBLIC_URL%/moonshine.jpeg"
+        ],
+        name: "Moonshine",
+        description: "Идеально подходит для стримов и джампов, отличный скин. Выглядит очень красиво, а так же играется очень приятно. Думаю, стоит попробовать",
+        downloadLink: "https://drive.google.com/file/d/1Xrd24AH_GxW1g0pBQqS1L4fB8127ebT0/view?usp=sharing"
     }
 ]
