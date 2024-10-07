@@ -47,4 +47,6 @@ export const users = [
     {"id": "1244817985168740377", "username": "impressive_osu", "global_name": "Impressive", "avatar": "16e8e2a5cb542e00e52ffa641c5c43e5", "note": "Конченый идиот, основной ник impressive_osu"} ,
     {"id": "486796385455177748", "username": "_apostrof", "global_name": "apostrof?", "avatar": "1d5bb21dfe30eb2dd7d937ae73b27f5e", "note": "Синдром невика, долбаебина, ник дебила хассанище trying diffrent area's"} ,
     {"id": "739584040738357299", "username": "limuro_official", "global_name": "Welcome to the New Era' *LiMuRo", "avatar": "a_0643f439b5dfd4feb3e3e90a7fc506c3", "note": "В муте с демкой, контрибьютор в сайт!"} ,
+    {"id": "381106633964650497", "username": "thecatpetra", "global_name": "TheCatPetra", "avatar": "e9c16c3d5638196b8abed01b32f5134a", "note": "Скин без пп, играет жимерскую хуйню, контрибьютор"} ,
+    {"id": "462372460633915393", "username": "zexashizo", "global_name": "Asico", "avatar": "569c9a16bb8022140aff3b737f2dfbf1", "note": "Синдром невика"} ,
 ]
