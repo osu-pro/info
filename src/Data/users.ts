@@ -52,4 +52,6 @@ export const users = [
     {"id": "993558260072329417", "username": "destrvction", "global_name": "yvuobijniokl", "avatar": "a_944f33f030c5d3f877baf11073766105", "note": "[17] 7к, LaBPushka"} ,
     {"id": "733071177693528174", "username": "wwqt", "global_name": "Msdd", "avatar": "a_1bb9612502960d49bcd3c3a37efdafb9", "note": "[16] Офлайн? Да, офлайн + забанен, играет говнище с RX"} ,
     {"id": "377126876524838914", "username": "skvrtxq", "global_name": "Как играть cпейс стримы", "avatar": "4985b2599b02a0ae125236418d6d8c9a", "note": "Как играть спейс стримы, клоун, читер, оффлайн позор"} ,
+    {"id": "311368723946799104", "username": "solanbuy", "global_name": "SolanBuy", "avatar": "1e724a2398cccc9e5654847e2f97035e", "note": "хз, чето понимает про осу вроде, но без демки\nнесет разные шизовые вещи"} ,
+    {"id": "778535398946242581", "username": "natsumisuzwe", "global_name": "kyosuke^<3", "avatar": "37b05caf01808601ad2fc2bd7cd3d6b9", "note": "мультиакк, нубас, (читер)"} ,
 ]
