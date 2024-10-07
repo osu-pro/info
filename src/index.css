@@ -30,3 +30,10 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
+.disclaimer {
+  padding: 1rem;
+  background-color: red;
+  font-size: 1.5rem;
+  color: white;
+}
