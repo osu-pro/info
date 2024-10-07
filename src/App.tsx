@@ -18,16 +18,7 @@ function App() {
   return <BrowserRouter>
     <div className="main-content-outer">
       <div className="main-content">
-        <Navigation/>
-        <Line/>
-        <Routes>
-          <Route index path="/info/" element={<Home/>}/>
-          <Route path="/info/players" element={<Players/>}/>
-          <Route path="/info/epidemy" element={<Epidemy/>}/>
-          <Route path="/info/phrases" element={<Phrases/>}/>
-          <Route path="/info/skins" element={<Skins/>}/>
-          <Route path="*" element={<Home/>}/>
-        </Routes>
+        <h1> Вебсайт временно отключен </h1>
       </div>
     </div>
   </BrowserRouter>
