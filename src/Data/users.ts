@@ -49,4 +49,5 @@ export const users = [
     {"id": "739584040738357299", "username": "limuro_official", "global_name": "Welcome to the New Era' *LiMuRo", "avatar": "a_0643f439b5dfd4feb3e3e90a7fc506c3", "note": "В муте с демкой, контрибьютор в сайт!"} ,
     {"id": "381106633964650497", "username": "thecatpetra", "global_name": "TheCatPetra", "avatar": "e9c16c3d5638196b8abed01b32f5134a", "note": "Скин без пп, играет жимерскую хуйню, контрибьютор"} ,
     {"id": "462372460633915393", "username": "zexashizo", "global_name": "Asico", "avatar": "569c9a16bb8022140aff3b737f2dfbf1", "note": "Синдром невика"} ,
+    {"id": "278168905648701440", "username": "baibayyesterday", "global_name": "𝐁𝐚𝐢𝐁𝐚𝐲𝐘𝐄𝐒𝐓𝐄𝐑𝐃𝐀𝐘", "avatar": "61b8d50270d1e223ed6cd334928efdfd", "note": "офлайн позор, жимер идиот, бай бай естердей"} ,
 ]
